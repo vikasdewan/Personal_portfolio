@@ -413,6 +413,9 @@ footer{
 nav .fas{
     display: none;
 }
+.main-img-2{
+    display: none;
+}
 
 @media only screen and (max-width : 600px){
 
