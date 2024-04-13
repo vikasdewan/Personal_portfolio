@@ -29,7 +29,7 @@ body{
 }
 
 .container {
-    padding: 10px 10%;
+    padding: 10px 9%;
 }
 
 nav {
@@ -92,7 +92,17 @@ nav ul li a:hover:after{
     
 }
 
- 
+.main-img{
+    padding-top: 100px;
+}
+
+.main-resume-btn{
+    padding: 4px;
+    background-color: #ff004f;
+    color: #fff7f7 !important;
+    border-radius: 10px;
+    font-weight: 600;
+}
 
 .header-text h1{
     font-size: 60px;
@@ -124,7 +134,8 @@ nav ul li a:hover:after{
 
 .about-col-1 img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 38px;
+    padding-top: 19px;
 }
 
 .about-col-2{
@@ -432,6 +443,11 @@ nav .fas{
     .main-img-2{
         display: block;
         width: 100%;
+        margin-top: 159px;
+    }
+    .main-resume-btn{
+        margin-top: 10px;
+        color: #ff004f;
     }
     #header{
         height: 67vh;
