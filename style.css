@@ -88,6 +88,7 @@ nav ul li a:hover:after{
      flex-basis: 70%;
     margin-top:20%;
     font-size:30px;
+    height: 55vh;
     
 }
 
@@ -415,6 +416,7 @@ nav .fas{
 }
 .main-img-2{
     display: none;
+    margin-top: 55px;
 }
 
 @media only screen and (max-width : 600px){
@@ -434,6 +436,11 @@ nav .fas{
     #header{
         height: 67vh;
     }
+
+    .header-text h1{
+        font-size: 49px;
+    }
+
     .about-col-1{
         display: none;
     }
@@ -476,6 +483,9 @@ nav .fas{
         cursor: pointer;
     }
 
+    .tab-links{
+        margin-right: 33px;
+    }
     .sub-title{
         font-size: 40px;
     }
