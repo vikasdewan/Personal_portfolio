@@ -455,6 +455,10 @@ nav .fas{
         display: inline;
         font-size: 25px;
     }
+
+    nav{
+        margin-left: -39px;
+    }
     
     nav ul{
         background: #ff004f;
