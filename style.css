@@ -257,7 +257,10 @@ nav ul li a:hover:after{
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    border: 1px solid white;
 }
+
+
 
 .work img{
     width: 100%;
