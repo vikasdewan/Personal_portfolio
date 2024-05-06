@@ -47,7 +47,7 @@ app.get("/", (req, res) => {
 app.post("/send_email", (req, res) => {
     let { name, email, subject, msg } = req.body;
 
-    const transporter = nodemailer.createTransport({
+    const transpoter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
             user: 'dewanganvikas192@gmail.com',
@@ -63,18 +63,18 @@ app.post("/send_email", (req, res) => {
         text: "Thank you for your message: " + msg,
     };
 
-    transporter.sendMail(mailOptions, (err, info) => {
+    transpoter.sendMail(mailOptions, (err, info) => {
         if (err) {
             console.error("Error sending email:", err);
             req.flash("error", "Failed to send message. Please try again later.");
-            res.send("msg send successfully")
         } else {
             console.log("Email sent successfully:", info.response);
             req.flash("success", "Message sent successfully.");
-            res.send("msg send successfully")
         }
         
     });
+
+    res.redirect("/");
 });
 
 app.listen(port, () => {
