@@ -435,6 +435,9 @@ nav .fas{
     margin-top: 55px;
 }
 
+ 
+
+
 @media only screen and (max-width : 600px){
 
     .header-text{
@@ -536,4 +539,11 @@ nav .fas{
         height: 200px;
         padding-right: 20px;
     }
+
+
+  /* flash button */
+  .flash-button{
+    width: 100%;
+    margin: 2px 8px 9px 5px;
+  }
 }
