@@ -72,9 +72,9 @@ app.post("/send_email", (req, res) => {
             req.flash("success", "Message sent successfully.");
         }
         
+        res.redirect("/");
     });
 
-    res.redirect("/");
 });
 
 app.listen(port, () => {
