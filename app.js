@@ -67,11 +67,13 @@ app.post("/send_email", (req, res) => {
         if (err) {
             console.error("Error sending email:", err);
             req.flash("error", "Failed to send message. Please try again later.");
+            res.send("msg send successfully")
         } else {
             console.log("Email sent successfully:", info.response);
             req.flash("success", "Message sent successfully.");
+            res.send("msg send successfully")
         }
-        res.redirect("/");
+        
     });
 });
 
