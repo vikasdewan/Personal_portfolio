@@ -10,8 +10,9 @@ html{
 }
 
 body{
-    background-color: #080808;
+    background-color: #080808 !important;
     color: #fff;
+    width: 100%;
 }
 
 .divider{
@@ -29,7 +30,7 @@ body{
 }
 
 .container {
-    padding: 10px 9%;
+    padding: 10px 2%;
 }
 
 nav {
@@ -101,12 +102,13 @@ nav ul li a:hover:after{
     background-color: #ff004f;
     color: #fff7f7 !important;
     border-radius: 10px;
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
-.header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
+.header-text h1 {
+    font-size: 60px !important;
+    margin-top: 20px !important;
+    font-weight:bolder;
 }
 
 
