@@ -387,7 +387,7 @@ form input,form textarea{
     width:100%;
     border: 0;
     outline: none;
-    background-color: #262626;
+    background-color: #302f2f;
     padding: 15px;
     margin: 15px 0;
     color: #fff;
@@ -425,7 +425,7 @@ footer{
 
 
 
-/* ----------css For Small Screen */
+/* ----------css For Small Screen size */
 
 nav .fas{
     display: none;
@@ -462,7 +462,7 @@ nav .fas{
     }
 
     .header-text h1{
-        font-size: 49px;
+        font-size: 49px !important;
     }
 
     .about-col-1{
